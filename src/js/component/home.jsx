@@ -27,7 +27,6 @@ const Home = () => {
 	}
 
 	const deteleTask = (event, item) => {
-		event.target.parentElement.parentElement.removeChild(event.target.parentElement);
 		setTasks(tasks.filter((i) => i !== item));
 	}
 
